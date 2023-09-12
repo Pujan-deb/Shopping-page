@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/ea22d421bb.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        Price: '#FABE4C',
+                        cardimgbg: '#F1F1F1',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-[#FFFBF0]">
+        <!-- menu  -->
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between my-7 md:px-4 xl:px-14">
+            <img src="icons/logo.png" alt="" class="w-56 h-9">
+            <div class="mt-2 md:mt-0">
+                <ul
+                    class="flex flex-col md:flex-row justify-between gap-9 uppercase cursor-pointer text-xl text-gray-600">
+                    <li class="hover:text-black duration-700">Home</li>
+                    <li class="hover:text-black duration-700">Product</li>
+                    <li class="hover:text-black duration-700">About us</li>
+                    <li class="hover:text-black duration-700">contact</li>
+                </ul>
+            </div>
+        </div>
+        <!-- banner -->
+        <div
+            class="container mx-auto sm:flex sm:flex-col md:flex md:flex-row justify-evenly items-center mt-8 py-6 sm:px-2 md:px-2 xl:px-0">
+            <div class="space-y-6 px-2 md:px-0">
+                <h2 class="text-7xl font-semibold uppercase text-yellow-600">Be the Penguins <br><span
+                        class="text-black">of winter</span></h2>
+                <p class="text-gray-500 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button
+                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                    now</button>
+            </div>
+            <div class="ml-9 mt-8 md:mt-0 md:ml-0 ">
+                <img src="images/model.png" alt="" class="w-3/4 md:w-full">
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="mt-12">
+            <h2 class="text-5xl uppercase font-semibold sm:ml-4 lg:ml-10 ">Women's jacket</h2>
+            <!-- jacket card -->
+            <div class="grid grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-3 mt-7 gap-6 mx-0 md:mx-4">
+
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl ">
+                        <img src="images/jacket-1.png" alt="" class="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Yellow Coat Jacket</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between ">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Winter Jacket</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Red Coat Jacket</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="text-xl text-[#85A019] uppercase mt-5 items-end mr-3 hover:text-black duration-700">See
+                    more<i class="fa-solid fa-arrow-right mx-2"></i></button>
+            </div>
+        </section>
+        <section class="mt-16 ">
+            <h2 class="text-5xl uppercase font-semibold sm:ml-4 lg:ml-10 ">Men's jacket</h2>
+            <!-- jacket card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-7 gap-6 mx-0 md:mx-4">
+
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl ">
+                        <img src="images/jacket-4.png" alt="" class="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Snowboard Jacket Mens</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between ">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Snowboard Jacket Mens</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between ">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#FFF] drop-shadow-xl p-6">
+                    <div class="bg-cardimgbg p-4 rounded-2xl">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="space-y-5 p-2">
+                        <h2 class="capitalize text-3xl font-bold">Snowboard Jacket Mens</h2>
+                        <p class="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            tempore.</p>
+                        <div class="flex justify-between ">
+                            <div>
+                                <h3 class="text-Price text-4xl font-semibold">$250</h3>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-gradient-to-t from-[#A4BC46] to-[#85A019] text-white w-48 h-14 rounded-lg text-xl uppercase mx-auto ">
+                                    <i class="fa-solid fa-cart-shopping w-6 h-6 mr-1"></i>Buy
+                                    now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="text-xl text-[#85A019] uppercase mt-5 items-end mr-3 hover:text-black duration-700">See
+                    more<i class="fa-solid fa-arrow-right mx-2"></i></button>
+            </div>
+        </section>
+        <section class="my-20 container mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="flex flex-col gap-3 order-2 md:order-1">
+                <div class="p-4 flex gap-6 shadow-xl">
+                    <div class="w-20 h-20">
+                        <img src="icons/house.png" alt="" class="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="text-[#363958] text-2xl">Find the Perfect Fit</h2>
+                        <p class="text-[#3E3E3E] text-xl">Everybody is different, which is why we offer styles for every
+                            body.</p>
+                    </div>
+                </div>
+                <div class="p-4 flex gap-6 shadow-xl">
+                    <div class="w-20 h-20">
+                        <img src="icons/question.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="text-[#363958] text-2xl">Find the Perfect Fit</h2>
+                        <p class="text-[#3E3E3E] text-xl">Everybody is different, which is why we offer styles for every
+                            body.</p>
+                    </div>
+                </div>
+                <div class="p-4 flex gap-6 shadow-xl">
+                    <div class="w-20 h-20">
+                        <img src="icons/box.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="text-[#363958] text-2xl">Find the Perfect Fit</h2>
+                        <p class="text-[#3E3E3E] text-xl">Everybody is different, which is why we offer styles for every
+                            body.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-3/3 md:w-3/3 sm:order-1 lg:order-4 order-1 md:order-2">
+                <img src="images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#FFF] my-2">
+        <p class="text-gray-900 text-xl text-center">@pujan</p>
+    </footer>
+</body>
+
+</html>
